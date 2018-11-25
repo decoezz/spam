@@ -14,7 +14,7 @@ client.on('ready', () => {
    console.log(`----------------`);
 });
 
-if(message.content.startsWith(prefix + "say")) {
+if(message.content.startsWith(1 + "say")) {
     }
 });
 
