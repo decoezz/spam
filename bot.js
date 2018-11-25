@@ -14,8 +14,13 @@ client.on('ready', () => {
    console.log(`----------------`);
 });
 
-if(message.content.startsWith(1 + "say")) {
-    }
+ client.on('message',function(message) {
+    let prefix = "-";
+let args = message.content.split(" ").slice(1).join(" ");
+if(message.content.startsWith(prefix + "say")) {
+if(!args) return;
+message.channel.send(`${args}`); 
+}
 });
 
 client.on('message', message => {
