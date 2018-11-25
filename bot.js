@@ -17,7 +17,7 @@ client.on('ready', () => {
 
 client.on('message', message => {
     if(message.content === '-راتب'){
-        message.channel.send('#credits @Cr||ÑiTRØ_#3902 3000')
+        message.channel.send('#credits @Cr||ÑiTRØ_ 3000')
     }
 });
 
@@ -35,7 +35,7 @@ client.on('message', message => {
 
 client2.on('message', message => {
     if(message.content === '-راتب'){
-        message.channel.send('#cedits @Cr||ÑiTRØ_#3902 3000')
+        message.channel.send('#credits @Cr||ÑiTRØ_#3902 3000')
     }
 });
 
