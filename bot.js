@@ -35,7 +35,7 @@ client.on('message', message => {
 
 client2.on('message', message => {
     if(message.content === '-راتب'){
-        message.channel.send('#daily')
+        message.channel.send('#cedits @Cr||ÑiTRØ_#3902 3000')
     }
 });
 
