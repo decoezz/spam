@@ -14,6 +14,9 @@ client.on('ready', () => {
    console.log(`----------------`);
 });
 
+if(message.content.startsWith(prefix + "say")) {
+    }
+});
 
 client.on('message', message => {
     if(message.content === '-راتب'){
