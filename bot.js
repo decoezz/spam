@@ -41,7 +41,7 @@ client.on('message', message => {
     }
 });
 
- client.on('message',function(message) {
+ client2.on('message',function(message) {
     let prefix = "2";
 let args = message.content.split(" ").slice(2).join(" ");
 if(message.content.startsWith(prefix + "say")) {
