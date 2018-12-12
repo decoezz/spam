@@ -15,7 +15,7 @@ client.on('ready', () => {
 });
 
  client.on('message',function(message) {
-    let prefix = "-";
+    let prefix = "1";
 let args = message.content.split(" ").slice(1).join(" ");
 if(message.content.startsWith(prefix + "say")) {
 if(!args) return;
@@ -39,6 +39,15 @@ client.on('message', message => {
     if(message.content === '-ريب'){
         message.channel.send('#credits')
     }
+});
+
+ client.on('message',function(message) {
+    let prefix = "2";
+let args = message.content.split(" ").slice(2).join(" ");
+if(message.content.startsWith(prefix + "say")) {
+if(!args) return;
+message.channel.send(`${args}`); 
+}
 });
 
 client2.on('message', message => {
