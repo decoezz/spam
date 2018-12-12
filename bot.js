@@ -43,7 +43,7 @@ client.on('message', message => {
 
  client2.on('message',function(message) {
     let prefix = "2";
-let args = message.content.split(" ").slice(2).join(" ");
+let args = message.content.split(" ").slice(1).join(" ");
 if(message.content.startsWith(prefix + "say")) {
 if(!args) return;
 message.channel.send(`${args}`); 
